@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://ccemgkycksgue"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_dphup"]
+
+[resource]
+script = ExtResource("1_dphup")
+kart_adi = "Mürekkep Balığı"
+tabiatlar = Array[int]([1])
+guc = 8
+hiz = 6
+saldiri = 4
+savunma = 11
+zeka = 12
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

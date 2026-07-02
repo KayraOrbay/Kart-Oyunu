@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dljyivjppflwa"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_22mnb"]
+
+[resource]
+script = ExtResource("1_22mnb")
+kart_adi = "Bal Porsuğu"
+nadirlik = "Nadir"
+tabiatlar = Array[int]([4])
+guc = 9
+hiz = 6
+saldiri = 8
+savunma = 13
+zeka = 9
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

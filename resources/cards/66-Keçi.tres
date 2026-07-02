@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://di6db3qn8xu44"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_73q8q"]
+
+[resource]
+script = ExtResource("1_73q8q")
+kart_adi = "Keçi"
+tabiatlar = Array[int]([3])
+guc = 7
+hiz = 7
+saldiri = 7
+savunma = 6
+zeka = 7
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

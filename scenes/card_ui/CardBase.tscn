@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://c0ecau3gxsiuq"]
+
+[ext_resource type="Script" uid="uid://qar5pw1vw17g" path="res://scenes/card_ui/CardBase.gd" id="1_cg0jr"]
+[ext_resource type="Texture2D" uid="uid://qh8fgym3m5gi" path="res://resources/kart görselleri/1- Tilki Kartı kopyası kopyası.png" id="2_cg0jr"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_27m0w"]
+font_size = 35
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_cg0jr"]
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_dv235"]
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_roota"]
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_fmi5u"]
+font_size = 20
+
+[node name="CardBase" type="Control" unique_id=1164788165]
+custom_minimum_size = Vector2(200, 280)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cg0jr")
+
+[node name="KartGorseli" type="TextureRect" parent="." unique_id=1825098103]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 282.0
+offset_top = 373.0
+offset_right = 482.0
+offset_bottom = 653.0
+texture = ExtResource("2_cg0jr")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="GucSayisi" type="Label" parent="." unique_id=519211065]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 389.0
+offset_right = 453.0
+offset_bottom = 438.0
+text = "7"
+label_settings = SubResource("LabelSettings_27m0w")
+
+[node name="HizSayisi" type="Label" parent="." unique_id=1036009598]
+layout_mode = 0
+offset_left = 433.0
+offset_top = 530.0
+offset_right = 445.0
+offset_bottom = 558.0
+text = "5"
+label_settings = SubResource("LabelSettings_cg0jr")
+
+[node name="SaldiriSayisi" type="Label" parent="." unique_id=1255516426]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 548.0
+offset_right = 444.0
+offset_bottom = 576.0
+text = "6"
+label_settings = SubResource("LabelSettings_dv235")
+
+[node name="SavunmaSayisi" type="Label" parent="." unique_id=1548938410]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 567.0
+offset_right = 444.0
+offset_bottom = 595.0
+text = "8"
+label_settings = SubResource("LabelSettings_roota")
+
+[node name="ZekaSayisi" type="Label" parent="." unique_id=496645348]
+layout_mode = 0
+offset_left = 433.0
+offset_top = 585.0
+offset_right = 445.0
+offset_bottom = 644.0
+text = "9
+"
+label_settings = SubResource("LabelSettings_fmi5u")

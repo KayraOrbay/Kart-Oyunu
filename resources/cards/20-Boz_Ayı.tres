@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://rju52ta682kx"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_dwaio"]
+
+[resource]
+script = ExtResource("1_dwaio")
+kart_adi = "Boz Ayı"
+nadirlik = "Efsanevi"
+tabiatlar = Array[int]([0])
+guc = 15
+hiz = 13
+saldiri = 18
+savunma = 17
+zeka = 12
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

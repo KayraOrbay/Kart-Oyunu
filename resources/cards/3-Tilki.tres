@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://kv3ha3tretwi"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_aw4mx"]
+[ext_resource type="Texture2D" uid="uid://qh8fgym3m5gi" path="res://resources/kart görselleri/1- Tilki Kartı kopyası kopyası.png" id="1_g7q5a"]
+
+[resource]
+script = ExtResource("1_aw4mx")
+kart_adi = "Tilki"
+tabiatlar = Array[int]([0])
+guc = 7
+hiz = 9
+saldiri = 4
+savunma = 3
+zeka = 13
+gorsel = ExtResource("1_g7q5a")
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

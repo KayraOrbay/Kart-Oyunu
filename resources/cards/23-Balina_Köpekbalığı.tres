@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://5jwo1fekofeq"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_bphn5"]
+
+[resource]
+script = ExtResource("1_bphn5")
+kart_adi = "Balina Köpekbalığı"
+tabiatlar = Array[int]([1])
+guc = 6
+hiz = 3
+saldiri = 3
+savunma = 12
+zeka = 7
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

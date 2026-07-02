@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://b3mw0d3bdtgkq"]
+
+[ext_resource type="Script" uid="uid://bvir106h3easy" path="res://scenes/combat/CombatArena.gd" id="1_m0445"]
+[ext_resource type="PackedScene" uid="uid://c0ecau3gxsiuq" path="res://scenes/card_ui/CardBase.tscn" id="2_ulwyh"]
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="3_qrj8j"]
+[ext_resource type="Resource" uid="uid://kv3ha3tretwi" path="res://resources/cards/3-Tilki.tres" id="4_tr5ew"]
+
+[node name="CombatArena" type="Control" unique_id=287894871]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_m0445")
+kart_sahnesi = ExtResource("2_ulwyh")
+test_destesi = Array[ExtResource("3_qrj8j")]([ExtResource("4_tr5ew"), ExtResource("4_tr5ew"), ExtResource("4_tr5ew"), ExtResource("4_tr5ew"), ExtResource("4_tr5ew")])
+
+[node name="OyuncuEliKutusu" type="HBoxContainer" parent="." unique_id=1802503439]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1620.0
+offset_right = 1080.0
+offset_bottom = 1920.0
+grow_horizontal = 2
+grow_vertical = 0

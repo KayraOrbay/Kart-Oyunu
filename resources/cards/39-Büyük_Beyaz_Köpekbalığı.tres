@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://t43ri46tspnj"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_anpf8"]
+
+[resource]
+script = ExtResource("1_anpf8")
+kart_adi = "Büyük Beyaz Köpekbalığı"
+nadirlik = "Destansı"
+tabiatlar = Array[int]([1])
+guc = 13
+hiz = 11
+saldiri = 17
+savunma = 12
+zeka = 12
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

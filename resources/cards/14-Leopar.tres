@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dhn8isbw52mqv"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_h8dlg"]
+
+[resource]
+script = ExtResource("1_h8dlg")
+kart_adi = "Leopar"
+nadirlik = "Nadir"
+tabiatlar = Array[int]([0, 4])
+guc = 9
+hiz = 12
+saldiri = 12
+savunma = 7
+zeka = 6
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bwt7tp3v0pume"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_fx4ls"]
+
+[resource]
+script = ExtResource("1_fx4ls")
+kart_adi = "Fener Balığı"
+tabiatlar = Array[int]([1])
+guc = 5
+hiz = 1
+saldiri = 7
+savunma = 4
+zeka = 10
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

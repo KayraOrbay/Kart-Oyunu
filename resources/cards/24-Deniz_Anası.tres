@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://duh6wy00dk4j0"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_jaajt"]
+
+[resource]
+script = ExtResource("1_jaajt")
+kart_adi = "Deniz Anası"
+tabiatlar = Array[int]([1])
+guc = 4
+hiz = 1
+saldiri = 4
+savunma = 10
+zeka = 2
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

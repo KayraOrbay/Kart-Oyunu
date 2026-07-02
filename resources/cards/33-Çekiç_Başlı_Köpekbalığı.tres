@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bd65mnxb4abb1"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_wuacf"]
+
+[resource]
+script = ExtResource("1_wuacf")
+kart_adi = "Çekiç Başlı Köpekbalığı"
+nadirlik = "Nadir"
+tabiatlar = Array[int]([1])
+guc = 10
+hiz = 8
+saldiri = 12
+savunma = 9
+zeka = 12
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

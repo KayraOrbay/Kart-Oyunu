@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dfbfgcbxfs5j"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_smar4"]
+
+[resource]
+script = ExtResource("1_smar4")
+kart_adi = "Sırtlan"
+tabiatlar = Array[int]([4])
+guc = 8
+hiz = 9
+saldiri = 9
+savunma = 7
+zeka = 8
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

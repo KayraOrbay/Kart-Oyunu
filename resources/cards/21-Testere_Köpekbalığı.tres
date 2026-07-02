@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bhy8l2ri3t7jy"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_6tn7d"]
+
+[resource]
+script = ExtResource("1_6tn7d")
+kart_adi = "Testere Köpekbalığı"
+tabiatlar = Array[int]([1])
+guc = 7
+hiz = 5
+saldiri = 10
+savunma = 7
+zeka = 6
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

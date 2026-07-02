@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dep1w2n5n6mqi"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_gnnf6"]
+
+[resource]
+script = ExtResource("1_gnnf6")
+kart_adi = "Deve"
+tabiatlar = Array[int]([3])
+guc = 8
+hiz = 11
+saldiri = 6
+savunma = 11
+zeka = 5
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

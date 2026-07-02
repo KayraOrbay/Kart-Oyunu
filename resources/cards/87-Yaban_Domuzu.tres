@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dg5sxdm8rrbbt"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_n4ke4"]
+
+[resource]
+script = ExtResource("1_n4ke4")
+kart_adi = "Yaban Domuzu"
+tabiatlar = Array[int]([4, 0])
+guc = 6
+hiz = 7
+saldiri = 7
+savunma = 8
+zeka = 3
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

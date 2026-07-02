@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://csh2ar1syro3q"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_fra05"]
+
+[resource]
+script = ExtResource("1_fra05")
+kart_adi = "Mantis Karidesi"
+tabiatlar = Array[int]([1])
+guc = 5
+hiz = 2
+saldiri = 11
+savunma = 3
+zeka = 3
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

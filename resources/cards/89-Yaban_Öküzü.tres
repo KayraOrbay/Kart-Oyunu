@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://134iag06aewl"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_46qno"]
+
+[resource]
+script = ExtResource("1_46qno")
+kart_adi = "Yaban Öküzü"
+tabiatlar = Array[int]([4])
+guc = 7
+hiz = 13
+saldiri = 5
+savunma = 6
+zeka = 4
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bomtc8n5lxykv"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_twhfy"]
+
+[resource]
+script = ExtResource("1_twhfy")
+kart_adi = "Domuz"
+tabiatlar = Array[int]([3])
+guc = 5
+hiz = 4
+saldiri = 4
+savunma = 5
+zeka = 6
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c16wksm457jb8"]
+
+[ext_resource type="Script" uid="uid://50pqo5nwb5e2" path="res://resources/scripts/CardData.gd" id="1_mtge1"]
+
+[resource]
+script = ExtResource("1_mtge1")
+kart_adi = "Deniz Kaplumbağası"
+tabiatlar = Array[int]([1])
+guc = 6
+hiz = 4
+saldiri = 6
+savunma = 11
+zeka = 4
+metadata/_custom_type_script = "uid://50pqo5nwb5e2"
